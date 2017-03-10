@@ -22,6 +22,11 @@
     background: none repeat scroll 0 0 #45ac9d;
 }
 
+#masthead nav ul li{
+  float:left;
+  margin:0 10px 0 0px;
+}
+
 .button {
     background: none repeat scroll 0 0 #45ac9d;
 }
@@ -49,4 +54,34 @@
 	font-weight: bold;
 	color: #45ac9d;
 	text-transform: uppercase;
+}
+
+/* Case Studies */
+article.case-study {
+  margin:0 40px 0 0;
+}
+aside.case-study-sidebar  {
+  float:left;
+  width:270px;
+}
+
+aside.case-study-sidebar  {
+  float:left;
+  width:270px;
+  margin:0 0px 0 0;
+}
+aside.case-study-sidebar p,h2,h5,h6 {
+  font-weight: normal;
+}
+
+div.case-study-images {
+  display: block;
+  float:right;
+  width:606px;
+  margin-top: 25px;
+}
+
+div.case-study-images img {
+  margin-bottom:50px;
+  border:1px solid #dddddd;
 }
