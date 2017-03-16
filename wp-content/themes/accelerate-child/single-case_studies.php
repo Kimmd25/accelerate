@@ -22,13 +22,13 @@ get_header(); ?>
 
 					<article class="case-study">
 							<aside class="case-study-sidebar">
-												<h2><?php the_title(); ?><h2>
+												<h2><?php the_title(); ?></h2>
 												<h6><?php echo $services; ?></h6>
 												<h5>Client: <?php echo $client; ?></h5>
 
 
 												<?php the_content(); ?>
-												
+
 												<p><strong><a href="<?php echo $link; ?>">Site Link</a><strong></p>
 
 										</aside>

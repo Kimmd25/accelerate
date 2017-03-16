@@ -20,17 +20,19 @@
 
 #masthead {
     background: none repeat scroll 0 0 #45ac9d;
-
+    color: white;
 }
 
-#masthead nav ul li{
-  float:left;
-  margin:0 10px 0 0px;
+#masthead nav li{
+    float:right;
+    margin:0px 20px 0px 0px;
+    text-transform: uppercase;
 }
 
-header#masthead.site-header {
-  width:inherit;
+#masthead ul{
+    overflow: auto;
 }
+
 
 
 .button {
@@ -74,6 +76,7 @@ section.featured-work h4 {
 ul.homepage-featured-work{
   list-style:none;
   width: 200px;
+
 
 }
 

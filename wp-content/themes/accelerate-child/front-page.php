@@ -29,7 +29,7 @@ get_header(); ?>
 	<div class="site-content">
 		<h4>Featured Work</h4>
 
-<ul class="homepage-featured-work">
+	<ul class="homepage-featured-work">
 		<?php query_posts('posts_per_page=3&post_type=case_studies'); ?>
 			<?php while ( have_posts() ) : the_post();
 				 $image_1 = get_field("image_1");
@@ -42,30 +42,11 @@ get_header(); ?>
 				 </figure>
 
 				 <h5><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
-			</li>
-
-			<li class="individual-featured-work">
-
-				 <figure>
-						<?php echo wp_get_attachment_image($image_2, $size); ?>
-				 </figure>
-
-				 <h5><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
-			</li>
-
-			<li class="individual-featured-work">
-
-				 <figure>
-						<?php echo wp_get_attachment_image($image_3, $size); ?>
-				 </figure>
-
-				 <h5><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
-			</li>
-
-			<?php endwhile; ?>
-		  <?php wp_reset_query(); ?>
-</ul>
-	</div>
+		 </li>
+		 <?php endwhile; ?>
+		 <?php wp_reset_query(); ?>
+		</ul>
+</div>
 </section>
 
 <section class="recent-posts">
